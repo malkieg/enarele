@@ -1,0 +1,190 @@
+header, footer, section, nav, article{
+	display:block;
+}
+
+body{
+	width:1280px;
+	margin:auto;
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+	font-size:25;
+	text-decoration:underline;
+}
+p{
+	padding:2px;
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+}
+
+/*LOGO*/
+
+
+header img{
+	display:block;
+	margin-right:50%;
+	margin-left:22%;
+	clear:both;
+	width:50%;
+}
+header img:hover{
+	transform:scale(1);
+}
+
+
+/*NAVIGATION MENU*/
+nav{
+	font-size:50px;
+	font-family:arial;
+	font-style:italic;
+	text-align:center;
+	background-color:#008080;
+	height:150px;
+	color:white;
+	padding-top:10px;
+	clear:both;
+}
+li{
+	display:inline;
+	padding:0px 70px;
+}
+a:link{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+
+/*PROMO CODE*/
+
+article div{
+	background-image: url("../images/backgroundgold.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color: #FFD700;	
+}
+article div p{
+	color:white;
+	font-size:40px;
+}
+/*FOOTER*/
+
+footer{
+	border:2px #008080 solid;
+	clear:both;
+}
+
+
+footer img{
+	
+	width:70px;
+	height:70px;
+	margin:80px;
+	margin-left:100px;
+	
+}
+
+/*MAIN PAGE*/
+
+.mainImage{
+	width:1150px;
+	height:950px;
+	}
+
+.mainImage:hover{
+	transform:scale(1);
+}
+.aboutus{
+	color:#008080;
+}
+	
+/*GALLERY IMAGES*/
+img{
+	width:355px;
+	height:533px;
+	margin:50px 25px 40px 45px;
+	display:block;
+	float:left;
+	transition: transform .2s;
+}
+
+img:hover {
+   	transform: scale(1.4);
+}
+
+
+
+/* TABLE - INDIVIDUAL ITEM PAGES*/
+
+
+		
+.imageAvailable{
+	float:left;
+	margin:110px 20px 50px 115px;
+	width:455px;
+	height:633px;
+}
+
+.imageNot{
+	position:relative;
+}
+.outOfStock{
+	position:absolute;
+	margin: 300px 0px 0px 43px;
+	font-size: 100px;
+	transform: rotate(-45deg);
+}
+.imageNotAvailable{
+	opacity:0.6;
+	float:left;
+	margin:110px 20px 50px 115px;
+	width:455px;
+	height:633px;
+}		
+		
+table{
+	border: 1px solid black;
+	font-size:30px;
+	text-align:center;
+	font-variant: small-caps;
+	margin:auto;	
+}
+		
+caption{
+	font-weight:bold;
+	font-size:50px;
+	color:#008080;
+}
+		
+
+td{
+	border: 1px solid black;
+	padding: 30px;
+	color:#f9a602;
+}
+
+.tableHead{
+	border:5px solid black;
+	font-weight:bold;
+	color:#f9a602;
+	font-size:40px;
+}
+
+.tableOptionHead{
+	color:#008080;
+	font-size:35px;
+	font-weight:bold;
+			
+}
+
+/*CONTACT*/
+
+section{
+	color:white;
+	background-color:black;
+	font-size:30px;
+}
